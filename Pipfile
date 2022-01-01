@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = {extras = ["all"], version = "*"}
+tensorflow-cpu = "*"
+celery = "==4.4.7"
+redis = "==3.5.3"
+flower = "==0.9.7"
+opencv-python = "*"
+pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
